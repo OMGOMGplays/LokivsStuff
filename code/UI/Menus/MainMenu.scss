@@ -1,0 +1,156 @@
+mainmenu 
+{
+    left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding: 100px;
+	padding-bottom: 200px;
+	border-radius: 5px;
+	pointer-events: none;
+	transition: all 0.1s ease-out;
+	position: absolute;
+	font-family: poppins;
+	opacity: 0;
+
+	.tabs
+	{
+		font-size: 16px;
+		flex-shrink: 0;
+		margin-bottom: 4px;
+		padding-left: 10px;
+
+		button
+		{
+			padding: 6px 5px;
+			margin-right: 10px;
+			font-size: 23px;
+			align-items: center;
+			font-weight: 600;
+			opacity: 0.2;
+			color: #fff;
+			cursor: pointer;
+			font-family: Poppins;
+			//border-radius: 5px;
+			label
+			{
+				text-shadow: 1px 1px 4px rgba( black, 0.2 );
+			}
+
+			&:hover
+			{
+				opacity: 1;
+			}
+
+			&.active
+			{
+				transform: scale( 1 );
+				opacity: 1;
+				color: #fff;
+				//	background-color: #fff;//( #3273eb, 0.2 );
+				//color: #3273eb;
+			}
+		}
+	}
+
+	.left
+	{
+		flex-grow: 1;
+		flex-direction: column;
+		position: relative;
+		left: -500px;
+		transition: all 0.3s ease-in;
+
+		.body
+		{
+			border-radius: 10px;
+			background-color: rgba( #111, 0.4 );
+			flex-grow: 1;
+			backdrop-filter: blur( 100px );
+		}
+	}
+}
+
+.mainmenuopen mainmenu 
+{
+    transition: all 0.2s ease-out;
+	pointer-events: all;
+	opacity: 1;
+	transform: scale( 1 );
+
+	.left
+	{
+		left: 0;
+		transition: all 0.1s ease-out;
+	}
+}
+
+.spawnpage
+{
+    display: none;
+
+	&.active
+	{
+		display: flex;
+		opacity: 1;
+	}
+
+	.canvas
+	{
+		overflow: scroll;
+		width: 100%;
+		flex-grow: 1;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px;
+		border-radius: 5px;
+
+		.cell
+		{
+			padding: 5px;
+		}
+
+		.icon
+		{
+			border-radius: 8px;
+			color: rgba( #fff, 0.5 );
+			font-size: 12px;
+			text-align: center;
+			cursor: pointer;
+			width: 100%;
+			height: 100%;
+			background-position: center;
+			background-size: cover;
+			background-color: rgba(black, 0.0);
+			background-image: url( /ui/mainmenu/spawnicon.png );
+
+			label
+			{
+				font-size: 9px;
+				position: absolute;
+				bottom: -17px;
+				left: 0;
+				right: 0;
+				pointer-events: none;
+			}
+
+			&:hover
+			{
+				color: rgb(117, 117, 117);
+				background-color: rgba(black, 0.1);
+			}
+
+            &:active 
+            {
+				color: #fff;
+            }
+		}
+	}
+}
+
+icon, iconpanel 
+{
+    font-family: "material icons";
+	flex-grow: 1;
+	text-align: left;
+}

@@ -1,0 +1,1932 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:animgraph2:version{0f7898b8-5471-45c4-9867-cd9c46bcfdb5} -->
+{
+	_class = "CAnimationGraph"
+	m_nodeManager = 
+	{
+		_class = "CAnimNodeManager"
+		m_nodes = 
+		[
+			{
+				key = 
+				{
+					m_id = 106876872
+				}
+				value = 
+				{
+					_class = "CAddAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 48.0, 0.0 ]
+					m_nNodeID = 
+					{
+						m_id = 106876872
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_baseInput = 
+					{
+						m_nodeID = 
+						{
+							m_id = 1030985228
+						}
+						m_outputID = 
+						{
+							m_id = 4294967295
+						}
+					}
+					m_additiveInput = 
+					{
+						m_nodeID = 
+						{
+							m_id = 1234279758
+						}
+						m_outputID = 
+						{
+							m_id = 4294967295
+						}
+					}
+					m_timingBehavior = "UseChild2"
+					m_flTimingBlend = 0.5
+					m_footMotionTiming = "Child1"
+					m_bResetBase = false
+					m_bResetAdditive = true
+					m_bApplyChannelsSeparately = true
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 219314110
+				}
+				value = 
+				{
+					_class = "CBlend2DAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 48.0, 64.0 ]
+					m_nNodeID = 
+					{
+						m_id = 219314110
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_items = 
+					[
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_SwimE"
+							m_blendValue = [ 177.0, 0.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_SwimN"
+							m_blendValue = [ 0.0, 177.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_SwimNE"
+							m_blendValue = [ 125.0, 125.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_SwimNW"
+							m_blendValue = [ -125.0, 125.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_SwimS"
+							m_blendValue = [ 0.0, -177.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_SwimSE"
+							m_blendValue = [ 125.0, -125.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_SwimSW"
+							m_blendValue = [ -125.0, -125.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_SwimW"
+							m_blendValue = [ -177.0, 0.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "swim_idle_all"
+							m_blendValue = [ 0.0, 0.0 ]
+						},
+					]
+					m_blendSourceX = "Parameter"
+					m_paramX = 
+					{
+						m_id = 567075690
+					}
+					m_blendSourceY = "Parameter"
+					m_paramY = 
+					{
+						m_id = 406537804
+					}
+					m_bLoop = true
+					m_bLockBlendOnReset = false
+					m_bLockWhenWaning = true
+					m_playbackSpeed = 0.01
+					m_damping = 
+					{
+						_class = "CAnimInputDamping"
+						m_speedFunction = "NoDamping"
+						m_fSpeedScale = 1.0
+						m_fMinSpeed = 10.0
+						m_fMaxTension = 1000.0
+					}
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 383110819
+				}
+				value = 
+				{
+					_class = "CBlend2DAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -592.0, 0.0 ]
+					m_nNodeID = 
+					{
+						m_id = 383110819
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_items = 
+					[
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_CwalkC"
+							m_blendValue = [ 0.0, 0.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_CwalkE"
+							m_blendValue = [ 49.0, 0.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_CwalkN"
+							m_blendValue = [ 0.0, 49.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_CwalkNE"
+							m_blendValue = [ 34.0, 34.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_CwalkNW"
+							m_blendValue = [ -34.0, 34.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_CwalkS"
+							m_blendValue = [ 0.0, -49.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_CwalkSE"
+							m_blendValue = [ 34.0, -34.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_CwalkSW"
+							m_blendValue = [ -34.0, -34.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_CwalkW"
+							m_blendValue = [ -49.0, 0.0 ]
+						},
+					]
+					m_blendSourceX = "Parameter"
+					m_paramX = 
+					{
+						m_id = 567075690
+					}
+					m_blendSourceY = "Parameter"
+					m_paramY = 
+					{
+						m_id = 406537804
+					}
+					m_bLoop = true
+					m_bLockBlendOnReset = false
+					m_bLockWhenWaning = false
+					m_playbackSpeed = 1.0
+					m_damping = 
+					{
+						_class = "CAnimInputDamping"
+						m_speedFunction = "NoDamping"
+						m_fSpeedScale = 1.0
+						m_fMinSpeed = 10.0
+						m_fMaxTension = 1000.0
+					}
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 483211045
+				}
+				value = 
+				{
+					_class = "CSequenceAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -592.0, -144.0 ]
+					m_nNodeID = 
+					{
+						m_id = 483211045
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_tagSpans = [  ]
+					m_sequenceName = "idle_all_01"
+					m_playbackSpeed = 1.0
+					m_bLoop = true
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 517396029
+				}
+				value = 
+				{
+					_class = "CAddAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 48.0, 112.0 ]
+					m_nNodeID = 
+					{
+						m_id = 517396029
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_baseInput = 
+					{
+						m_nodeID = 
+						{
+							m_id = 1030985228
+						}
+						m_outputID = 
+						{
+							m_id = 4294967295
+						}
+					}
+					m_additiveInput = 
+					{
+						m_nodeID = 
+						{
+							m_id = 2085882716
+						}
+						m_outputID = 
+						{
+							m_id = 4294967295
+						}
+					}
+					m_timingBehavior = "UseChild2"
+					m_flTimingBlend = 0.5
+					m_footMotionTiming = "Child1"
+					m_bResetBase = false
+					m_bResetAdditive = true
+					m_bApplyChannelsSeparately = true
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 821223698
+				}
+				value = 
+				{
+					_class = "CSequenceAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -592.0, -96.0 ]
+					m_nNodeID = 
+					{
+						m_id = 821223698
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_tagSpans = [  ]
+					m_sequenceName = "cidle_all"
+					m_playbackSpeed = 1.0
+					m_bLoop = true
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1030985228
+				}
+				value = 
+				{
+					_class = "CStateMachineAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -176.0, -112.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1030985228
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_states = 
+					[
+						{
+							_class = "CAnimState"
+							m_transitions = 
+							[
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 2
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1276147045
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 2
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 1
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 17241465
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 1
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1423235969
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+							]
+							m_tags = [  ]
+							m_tagBehaviors = [  ]
+							m_name = "Idle Stand"
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 1839540964
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_stateID = 
+							{
+								m_id = 1411560110
+							}
+							m_position = [ -368.0, 0.0 ]
+							m_bIsStartState = true
+							m_bIsEndtState = false
+							m_bIsPassthrough = false
+							m_bIsRootMotionExclusive = false
+							m_bAlwaysEvaluate = false
+						},
+						{
+							_class = "CAnimState"
+							m_transitions = 
+							[
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1411560110
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 1
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1423235969
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 2
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 1
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 17241465
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+							]
+							m_tags = [  ]
+							m_tagBehaviors = [  ]
+							m_name = "Idle Crouch"
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 1839540964
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_stateID = 
+							{
+								m_id = 1276147045
+							}
+							m_position = [ -192.0, 0.0 ]
+							m_bIsStartState = false
+							m_bIsEndtState = false
+							m_bIsPassthrough = false
+							m_bIsRootMotionExclusive = false
+							m_bAlwaysEvaluate = false
+						},
+						{
+							_class = "CAnimState"
+							m_transitions = 
+							[
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1411560110
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 2
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 1
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 17241465
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 2
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1276147045
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+							]
+							m_tags = [  ]
+							m_tagBehaviors = [  ]
+							m_name = "Walk Stand"
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 2040953856
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_stateID = 
+							{
+								m_id = 1423235969
+							}
+							m_position = [ -368.0, 176.0 ]
+							m_bIsStartState = false
+							m_bIsEndtState = false
+							m_bIsPassthrough = false
+							m_bIsRootMotionExclusive = false
+							m_bAlwaysEvaluate = false
+						},
+						{
+							_class = "CAnimState"
+							m_transitions = 
+							[
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1411560110
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 1
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1423235969
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 2
+											m_paramID = 
+											{
+												m_id = 1020105719
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 1424674917
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 4
+												m_data = 0.0
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1276147045
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+							]
+							m_tags = [  ]
+							m_tagBehaviors = [  ]
+							m_name = "Walk Crouch"
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 2040953856
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_stateID = 
+							{
+								m_id = 17241465
+							}
+							m_position = [ -192.0, 176.0 ]
+							m_bIsStartState = false
+							m_bIsEndtState = false
+							m_bIsPassthrough = false
+							m_bIsRootMotionExclusive = false
+							m_bAlwaysEvaluate = false
+						},
+					]
+					m_bBlockWaningTags = false
+					m_bLockStateWhenWaning = false
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1045192376
+				}
+				value = 
+				{
+					_class = "CStateMachineAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 272.0, -112.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1045192376
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_states = 
+					[
+						{
+							_class = "CAnimState"
+							m_transitions = 
+							[
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 559507745
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 1
+												m_data = true
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 948552515
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 423489506
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 1
+												m_data = false
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 858326410
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+							]
+							m_tags = [  ]
+							m_tagBehaviors = [  ]
+							m_name = "Base"
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 1030985228
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_stateID = 
+							{
+								m_id = 1849037173
+							}
+							m_position = [ -144.0, -32.0 ]
+							m_bIsStartState = true
+							m_bIsEndtState = false
+							m_bIsPassthrough = false
+							m_bIsRootMotionExclusive = false
+							m_bAlwaysEvaluate = false
+						},
+						{
+							_class = "CAnimState"
+							m_transitions = 
+							[
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CFinishedCondition"
+											m_comparisonOp = 0
+											m_option = "FinishedConditionOption_OnAlmostFinished"
+											m_bIsFinished = true
+										},
+									]
+									m_blendDuration = 1.0
+									m_destState = 
+									{
+										m_id = 858326410
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 423489506
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 1
+												m_data = true
+											}
+										},
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 559507745
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 1
+												m_data = false
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 2084835287
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+							]
+							m_tags = [  ]
+							m_tagBehaviors = [  ]
+							m_name = "Jump"
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 106876872
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_stateID = 
+							{
+								m_id = 948552515
+							}
+							m_position = [ -256.0, -192.0 ]
+							m_bIsStartState = false
+							m_bIsEndtState = false
+							m_bIsPassthrough = false
+							m_bIsRootMotionExclusive = false
+							m_bAlwaysEvaluate = false
+						},
+						{
+							_class = "CAnimState"
+							m_transitions = 
+							[
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 423489506
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 1
+												m_data = true
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 2084835287
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+							]
+							m_tags = [  ]
+							m_tagBehaviors = [  ]
+							m_name = "Air"
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 219314110
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_stateID = 
+							{
+								m_id = 858326410
+							}
+							m_position = [ -144.0, -304.0 ]
+							m_bIsStartState = false
+							m_bIsEndtState = false
+							m_bIsPassthrough = false
+							m_bIsRootMotionExclusive = false
+							m_bAlwaysEvaluate = false
+						},
+						{
+							_class = "CAnimState"
+							m_transitions = 
+							[
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CFinishedCondition"
+											m_comparisonOp = 0
+											m_option = "FinishedConditionOption_OnAlmostFinished"
+											m_bIsFinished = true
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 1849037173
+									}
+									m_bReset = false
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+								{
+									_class = "CAnimStateTransition"
+									m_conditions = 
+									[
+										{
+											_class = "CParameterAnimCondition"
+											m_comparisonOp = 0
+											m_paramID = 
+											{
+												m_id = 559507745
+											}
+											m_comparisonValue = 
+											{
+												m_nType = 1
+												m_data = true
+											}
+										},
+									]
+									m_blendDuration = 0.2
+									m_destState = 
+									{
+										m_id = 948552515
+									}
+									m_bReset = true
+									m_resetCycleOption = "Beginning"
+									m_flFixedCycleValue = 0.0
+									m_blendCurve = 
+									{
+										m_vControlPoint1 = [ 0.5, 0.0 ]
+										m_vControlPoint2 = [ 0.5, 1.0 ]
+									}
+									m_bForceFootPlant = false
+									m_bDisabled = false
+								},
+							]
+							m_tags = [  ]
+							m_tagBehaviors = [  ]
+							m_name = "Land"
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 517396029
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_stateID = 
+							{
+								m_id = 2084835287
+							}
+							m_position = [ -32.0, -192.0 ]
+							m_bIsStartState = false
+							m_bIsEndtState = false
+							m_bIsPassthrough = false
+							m_bIsRootMotionExclusive = false
+							m_bAlwaysEvaluate = false
+						},
+					]
+					m_bBlockWaningTags = false
+					m_bLockStateWhenWaning = false
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1234279758
+				}
+				value = 
+				{
+					_class = "CSequenceAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -288.0, 16.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1234279758
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_tagSpans = [  ]
+					m_sequenceName = "m_anm_anim_a_gmod_jump_delta"
+					m_playbackSpeed = 1.0
+					m_bLoop = false
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1389546833
+				}
+				value = 
+				{
+					_class = "CBlend2DAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -592.0, -48.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1389546833
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_items = 
+					[
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_WalkC"
+							m_blendValue = [ 0.0, 0.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_WalkE"
+							m_blendValue = [ 49.0, 0.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_WalkN"
+							m_blendValue = [ 0.0, 49.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_WalkNE"
+							m_blendValue = [ 34.0, 34.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_WalkNW"
+							m_blendValue = [ -34.0, 34.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_WalkS"
+							m_blendValue = [ 0.0, -49.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_WalkSE"
+							m_blendValue = [ 34.0, -34.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_WalkSW"
+							m_blendValue = [ -34.0, -34.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_WalkW"
+							m_blendValue = [ -49.0, 0.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_RunNW"
+							m_blendValue = [ -125.0, 125.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_RunS"
+							m_blendValue = [ 0.0, -177.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_RunSE"
+							m_blendValue = [ 125.0, -125.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_RunSW"
+							m_blendValue = [ -125.0, -125.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_RunW"
+							m_blendValue = [ -177.0, 0.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_RunE"
+							m_blendValue = [ 177.0, 0.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_RunN"
+							m_blendValue = [ 0.0, 177.0 ]
+						},
+						{
+							_class = "CBlend2DItem"
+							m_tagSpans = [  ]
+							m_sequenceName = "m_anm_anim_a_RunNE"
+							m_blendValue = [ 125.0, 125.0 ]
+						},
+					]
+					m_blendSourceX = "Parameter"
+					m_paramX = 
+					{
+						m_id = 567075690
+					}
+					m_blendSourceY = "Parameter"
+					m_paramY = 
+					{
+						m_id = 406537804
+					}
+					m_bLoop = true
+					m_bLockBlendOnReset = false
+					m_bLockWhenWaning = false
+					m_playbackSpeed = 1.0
+					m_damping = 
+					{
+						_class = "CAnimInputDamping"
+						m_speedFunction = "NoDamping"
+						m_fSpeedScale = 1.0
+						m_fMinSpeed = 10.0
+						m_fMaxTension = 1000.0
+					}
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1839540964
+				}
+				value = 
+				{
+					_class = "CBlendAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -384.0, -112.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1839540964
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_children = 
+					[
+						{
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 483211045
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_name = "Standing"
+							m_blendValue = 0.0
+						},
+						{
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 821223698
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_name = "Crouching"
+							m_blendValue = 1.0
+						},
+					]
+					m_blendValueSource = "Parameter"
+					m_param = 
+					{
+						m_id = 1020105719
+					}
+					m_blendKeyType = "BlendKey_UserValue"
+					m_bLockBlendOnReset = false
+					m_bSyncCycles = true
+					m_bLoop = true
+					m_bLockWhenWaning = false
+					m_damping = 
+					{
+						_class = "CAnimInputDamping"
+						m_speedFunction = "NoDamping"
+						m_fSpeedScale = 1.0
+						m_fMinSpeed = 10.0
+						m_fMaxTension = 1000.0
+					}
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 2024651358
+				}
+				value = 
+				{
+					_class = "CRootAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 560.0, -112.0 ]
+					m_nNodeID = 
+					{
+						m_id = 2024651358
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_inputConnection = 
+					{
+						m_nodeID = 
+						{
+							m_id = 1045192376
+						}
+						m_outputID = 
+						{
+							m_id = 4294967295
+						}
+					}
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 2040953856
+				}
+				value = 
+				{
+					_class = "CBlendAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -384.0, -48.0 ]
+					m_nNodeID = 
+					{
+						m_id = 2040953856
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_children = 
+					[
+						{
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 1389546833
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_name = "Standing"
+							m_blendValue = 0.0
+						},
+						{
+							m_inputConnection = 
+							{
+								m_nodeID = 
+								{
+									m_id = 383110819
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+							m_name = "Crouching"
+							m_blendValue = 1.0
+						},
+					]
+					m_blendValueSource = "Parameter"
+					m_param = 
+					{
+						m_id = 1020105719
+					}
+					m_blendKeyType = "BlendKey_UserValue"
+					m_bLockBlendOnReset = false
+					m_bSyncCycles = true
+					m_bLoop = true
+					m_bLockWhenWaning = false
+					m_damping = 
+					{
+						_class = "CAnimInputDamping"
+						m_speedFunction = "NoDamping"
+						m_fSpeedScale = 1.0
+						m_fMinSpeed = 10.0
+						m_fMaxTension = 1000.0
+					}
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 2085882716
+				}
+				value = 
+				{
+					_class = "CSequenceAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -256.0, 144.0 ]
+					m_nNodeID = 
+					{
+						m_id = 2085882716
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_tagSpans = [  ]
+					m_sequenceName = "m_anm_anim_a_jump_land"
+					m_playbackSpeed = 1.0
+					m_bLoop = false
+				}
+			},
+		]
+	}
+	m_pParameterList = 
+	{
+		_class = "CAnimParameterList"
+		m_Parameters = 
+		[
+			{
+				_class = "CFloatAnimParameter"
+				m_name = "duck"
+				m_id = 
+				{
+					m_id = 1020105719
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_fDefaultValue = 0.0
+				m_fMinValue = 0.0
+				m_fMaxValue = 1.0
+				m_bInterpolate = true
+			},
+			{
+				_class = "CFloatAnimParameter"
+				m_name = "move_speed"
+				m_id = 
+				{
+					m_id = 1424674917
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_fDefaultValue = 0.0
+				m_fMinValue = 0.0
+				m_fMaxValue = 1000.0
+				m_bInterpolate = true
+			},
+			{
+				_class = "CFloatAnimParameter"
+				m_name = "move_x"
+				m_id = 
+				{
+					m_id = 406537804
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_fDefaultValue = 0.0
+				m_fMinValue = -1000.0
+				m_fMaxValue = 1000.0
+				m_bInterpolate = true
+			},
+			{
+				_class = "CFloatAnimParameter"
+				m_name = "move_y"
+				m_id = 
+				{
+					m_id = 567075690
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_fDefaultValue = 0.0
+				m_fMinValue = -1000.0
+				m_fMaxValue = 1000.0
+				m_bInterpolate = true
+			},
+			{
+				_class = "CBoolAnimParameter"
+				m_name = "b_grounded"
+				m_id = 
+				{
+					m_id = 423489506
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_bDefaultValue = true
+			},
+			{
+				_class = "CBoolAnimParameter"
+				m_name = "b_jump"
+				m_id = 
+				{
+					m_id = 559507745
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = false
+				m_bUseMostRecentValue = false
+				m_bAutoReset = true
+				m_bPredicted = false
+				m_bDefaultValue = false
+			},
+		]
+	}
+	m_pTagManager = 
+	{
+		_class = "CAnimTagManager"
+		m_tags = [  ]
+	}
+	m_pMovementManager = 
+	{
+		_class = "CAnimMovementManager"
+		m_MotorList = 
+		{
+			_class = "CAnimMotorList"
+			m_motors = [  ]
+		}
+		m_MovementSettings = 
+		{
+			_class = "CAnimMovementSettings"
+			m_bShouldCalculateSlope = false
+		}
+	}
+	m_pSettingsManager = 
+	{
+		_class = "CAnimGraphSettingsManager"
+		m_settingsGroups = 
+		[
+			{
+				_class = "CAnimGraphGeneralSettings"
+				m_iGridSnap = 16
+			},
+			{
+				_class = "CAnimGraphNetworkSettings"
+				m_bNetworkingEnabled = true
+				m_defaultNetworkMode = "ClientPredicted"
+			},
+		]
+	}
+	m_pActivityValuesList = 
+	{
+		_class = "CActivityValueList"
+		m_activities = [  ]
+	}
+	m_previewModels = 
+	[
+		"models/playermodels/2_male_07/male_07_1.vmdl",
+	]
+	m_boneMergeModels = [  ]
+}
