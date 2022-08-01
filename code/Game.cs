@@ -56,6 +56,63 @@ namespace LS
 			Log.Info("Returning to the citizen playermodel!");
 		}
 
+		[ConCmd.Server("spawn")]
+		public static async Task Spawn(string modelname) 
+		{
+			var owner = ConsoleSystem.Caller?.Pawn;
+
+			if (ConsoleSystem.Caller == null) return;
+
+			var tr = Trace.Ray(owner.EyePosition, owner.EyePosition + owner.EyeRotation.Forward * 500)
+						.UseHitboxes()
+						.Ignore(owner)
+						.Run();
+
+			var modelRotation = Rotation.From(new Angles(0, owner.EyeRotation.Angles().yaw, 0));
+
+			if (modelname.Count(x => x == '.') == 1 && !modelname.EndsWith(".vmdl", System.StringComparison.OrdinalIgnoreCase) && !modelname.EndsWith(".vmdl_c", System.StringComparison.OrdinalIgnoreCase)) 
+			{
+				modelname = await SpawnPackageModel(modelname, tr.EndPosition, modelRotation, owner);
+				if (modelname == null) return;
+			}
+
+			var model = Model.Load(modelname);
+			if (model == null || model.IsError) return;
+
+			var ent = new Prop 
+			{
+				Position = tr.EndPosition + Vector3.Down * model.PhysicsBounds.Mins.z,
+				Rotation = modelRotation,
+				Model = model
+			};
+
+			ent.SetupPhysicsFromModel(PhysicsMotionType.Dynamic);
+
+			if (!ent.PhysicsBody.IsValid()) 
+			{
+				ent.SetupPhysicsFromOBB(PhysicsMotionType.Dynamic, ent.CollisionBounds.Mins, ent.CollisionBounds.Maxs);
+			}
+		}
+
+		static async Task<string> SpawnPackageModel(string packageName, Vector3 pos, Rotation rotation, Entity source) 
+		{
+			var package = await Package.Fetch(packageName, false);
+			if (package == null || package.PackageType != Package.Type.Model || package.Revision == null) 
+			{
+				return null;
+			}
+
+			if (!source.IsValid()) return null;
+
+			var model = package.GetMeta("PrimaryAsset", "models/dev/error.vmdl");
+			var mins = package.GetMeta("RenderMins", Vector3.Zero);
+			var maxs = package.GetMeta("RenderMaxs", Vector3.Zero);
+
+			await package.MountAsync();
+
+			return model;
+		}
+
 		[ConCmd.Server("spawn_entity")]
 		public static void SpawnEntity(string entName) 
 		{

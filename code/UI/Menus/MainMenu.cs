@@ -28,6 +28,9 @@ namespace LS
 
 					var weapons = body.AddChild<WeaponList>();
 					tabs.AddButtonActive("Weapons", (b) => weapons.SetClass("active", b));
+
+					var props = body.AddChild<PropList>();
+					tabs.AddButtonActive("Props", (b) => props.SetClass("active", b));
 				}
 			}
 		}

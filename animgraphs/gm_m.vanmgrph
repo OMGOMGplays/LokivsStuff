@@ -9,143 +9,400 @@
 			{
 				key = 
 				{
-					m_id = 106876872
+					m_id = 342032896
 				}
 				value = 
 				{
-					_class = "CAddAnimNode"
+					_class = "CGroupAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ 48.0, 0.0 ]
+					m_vecPosition = [ 64.0, -64.0 ]
 					m_nNodeID = 
 					{
-						m_id = 106876872
+						m_id = 342032896
 					}
 					m_networkMode = "ClientPredicted"
 					m_sNote = ""
-					m_baseInput = 
+					m_inputNodeID = 
 					{
-						m_nodeID = 
-						{
-							m_id = 1030985228
-						}
-						m_outputID = 
-						{
-							m_id = 4294967295
-						}
+						m_id = 1508800847
 					}
-					m_additiveInput = 
+					m_outputNodeID = 
 					{
-						m_nodeID = 
-						{
-							m_id = 1234279758
-						}
-						m_outputID = 
-						{
-							m_id = 4294967295
-						}
+						m_id = 1880643700
 					}
-					m_timingBehavior = "UseChild2"
-					m_flTimingBlend = 0.5
-					m_footMotionTiming = "Child1"
-					m_bResetBase = false
-					m_bResetAdditive = true
-					m_bApplyChannelsSeparately = true
-				}
-			},
-			{
-				key = 
-				{
-					m_id = 219314110
-				}
-				value = 
-				{
-					_class = "CBlend2DAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ 48.0, 64.0 ]
-					m_nNodeID = 
-					{
-						m_id = 219314110
-					}
-					m_networkMode = "ClientPredicted"
-					m_sNote = ""
-					m_items = 
+					m_inputConnectionMap = 
 					[
 						{
-							_class = "CBlend2DItem"
-							m_tagSpans = [  ]
-							m_sequenceName = "m_anm_anim_a_SwimE"
-							m_blendValue = [ 177.0, 0.0 ]
-						},
-						{
-							_class = "CBlend2DItem"
-							m_tagSpans = [  ]
-							m_sequenceName = "m_anm_anim_a_SwimN"
-							m_blendValue = [ 0.0, 177.0 ]
-						},
-						{
-							_class = "CBlend2DItem"
-							m_tagSpans = [  ]
-							m_sequenceName = "m_anm_anim_a_SwimNE"
-							m_blendValue = [ 125.0, 125.0 ]
-						},
-						{
-							_class = "CBlend2DItem"
-							m_tagSpans = [  ]
-							m_sequenceName = "m_anm_anim_a_SwimNW"
-							m_blendValue = [ -125.0, 125.0 ]
-						},
-						{
-							_class = "CBlend2DItem"
-							m_tagSpans = [  ]
-							m_sequenceName = "m_anm_anim_a_SwimS"
-							m_blendValue = [ 0.0, -177.0 ]
-						},
-						{
-							_class = "CBlend2DItem"
-							m_tagSpans = [  ]
-							m_sequenceName = "m_anm_anim_a_SwimSE"
-							m_blendValue = [ 125.0, -125.0 ]
-						},
-						{
-							_class = "CBlend2DItem"
-							m_tagSpans = [  ]
-							m_sequenceName = "m_anm_anim_a_SwimSW"
-							m_blendValue = [ -125.0, -125.0 ]
-						},
-						{
-							_class = "CBlend2DItem"
-							m_tagSpans = [  ]
-							m_sequenceName = "m_anm_anim_a_SwimW"
-							m_blendValue = [ -177.0, 0.0 ]
-						},
-						{
-							_class = "CBlend2DItem"
-							m_tagSpans = [  ]
-							m_sequenceName = "swim_idle_all"
-							m_blendValue = [ 0.0, 0.0 ]
+							key = 
+							{
+								m_id = 131707337
+							}
+							value = 
+							{
+								m_nodeID = 
+								{
+									m_id = 1030985228
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
 						},
 					]
-					m_blendSourceX = "Parameter"
-					m_paramX = 
+					m_nodeManager = 
 					{
-						m_id = 567075690
-					}
-					m_blendSourceY = "Parameter"
-					m_paramY = 
-					{
-						m_id = 406537804
-					}
-					m_bLoop = true
-					m_bLockBlendOnReset = false
-					m_bLockWhenWaning = true
-					m_playbackSpeed = 0.01
-					m_damping = 
-					{
-						_class = "CAnimInputDamping"
-						m_speedFunction = "NoDamping"
-						m_fSpeedScale = 1.0
-						m_fMinSpeed = 10.0
-						m_fMaxTension = 1000.0
+						_class = "CAnimNodeManager"
+						m_nodes = 
+						[
+							{
+								key = 
+								{
+									m_id = 106876872
+								}
+								value = 
+								{
+									_class = "CAddAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 96.0, 64.0 ]
+									m_nNodeID = 
+									{
+										m_id = 106876872
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_baseInput = 
+									{
+										m_nodeID = 
+										{
+											m_id = 1508800847
+										}
+										m_outputID = 
+										{
+											m_id = 131707337
+										}
+									}
+									m_additiveInput = 
+									{
+										m_nodeID = 
+										{
+											m_id = 1234279758
+										}
+										m_outputID = 
+										{
+											m_id = 4294967295
+										}
+									}
+									m_timingBehavior = "UseChild2"
+									m_flTimingBlend = 0.5
+									m_footMotionTiming = "Child1"
+									m_bResetBase = false
+									m_bResetAdditive = true
+									m_bApplyChannelsSeparately = true
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 219314110
+								}
+								value = 
+								{
+									_class = "CBlend2DAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 96.0, 128.0 ]
+									m_nNodeID = 
+									{
+										m_id = 219314110
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_items = 
+									[
+										{
+											_class = "CBlend2DItem"
+											m_tagSpans = [  ]
+											m_sequenceName = "m_anm_anim_a_SwimE"
+											m_blendValue = [ 177.0, 0.0 ]
+										},
+										{
+											_class = "CBlend2DItem"
+											m_tagSpans = [  ]
+											m_sequenceName = "m_anm_anim_a_SwimN"
+											m_blendValue = [ 0.0, 177.0 ]
+										},
+										{
+											_class = "CBlend2DItem"
+											m_tagSpans = [  ]
+											m_sequenceName = "m_anm_anim_a_SwimNE"
+											m_blendValue = [ 125.0, 125.0 ]
+										},
+										{
+											_class = "CBlend2DItem"
+											m_tagSpans = [  ]
+											m_sequenceName = "m_anm_anim_a_SwimNW"
+											m_blendValue = [ -125.0, 125.0 ]
+										},
+										{
+											_class = "CBlend2DItem"
+											m_tagSpans = [  ]
+											m_sequenceName = "m_anm_anim_a_SwimS"
+											m_blendValue = [ 0.0, -177.0 ]
+										},
+										{
+											_class = "CBlend2DItem"
+											m_tagSpans = [  ]
+											m_sequenceName = "m_anm_anim_a_SwimSE"
+											m_blendValue = [ 125.0, -125.0 ]
+										},
+										{
+											_class = "CBlend2DItem"
+											m_tagSpans = [  ]
+											m_sequenceName = "m_anm_anim_a_SwimSW"
+											m_blendValue = [ -125.0, -125.0 ]
+										},
+										{
+											_class = "CBlend2DItem"
+											m_tagSpans = [  ]
+											m_sequenceName = "m_anm_anim_a_SwimW"
+											m_blendValue = [ -177.0, 0.0 ]
+										},
+										{
+											_class = "CBlend2DItem"
+											m_tagSpans = [  ]
+											m_sequenceName = "swim_idle_all"
+											m_blendValue = [ 0.0, 0.0 ]
+										},
+									]
+									m_blendSourceX = "Parameter"
+									m_paramX = 
+									{
+										m_id = 567075690
+									}
+									m_blendSourceY = "Parameter"
+									m_paramY = 
+									{
+										m_id = 406537804
+									}
+									m_bLoop = true
+									m_bLockBlendOnReset = false
+									m_bLockWhenWaning = false
+									m_playbackSpeed = 0.01
+									m_damping = 
+									{
+										_class = "CAnimInputDamping"
+										m_speedFunction = "NoDamping"
+										m_fSpeedScale = 1.0
+										m_fMinSpeed = 10.0
+										m_fMaxTension = 1000.0
+									}
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 517396029
+								}
+								value = 
+								{
+									_class = "CAddAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 96.0, 176.0 ]
+									m_nNodeID = 
+									{
+										m_id = 517396029
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_baseInput = 
+									{
+										m_nodeID = 
+										{
+											m_id = 1508800847
+										}
+										m_outputID = 
+										{
+											m_id = 131707337
+										}
+									}
+									m_additiveInput = 
+									{
+										m_nodeID = 
+										{
+											m_id = 2085882716
+										}
+										m_outputID = 
+										{
+											m_id = 4294967295
+										}
+									}
+									m_timingBehavior = "UseChild2"
+									m_flTimingBlend = 0.5
+									m_footMotionTiming = "Child1"
+									m_bResetBase = false
+									m_bResetAdditive = true
+									m_bApplyChannelsSeparately = true
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 1234279758
+								}
+								value = 
+								{
+									_class = "CSequenceAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ -304.0, 80.0 ]
+									m_nNodeID = 
+									{
+										m_id = 1234279758
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_tagSpans = [  ]
+									m_sequenceName = "m_anm_anim_a_gmod_jump_delta"
+									m_playbackSpeed = 1.0
+									m_bLoop = false
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 1508800847
+								}
+								value = 
+								{
+									_class = "CGroupInputAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ -192.0, 0.0 ]
+									m_nNodeID = 
+									{
+										m_id = 1508800847
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_proxyItems = 
+									[
+										{
+											m_name = "Out"
+											m_outputID = 
+											{
+												m_id = 131707337
+											}
+											m_inputConnection = 
+											{
+												m_nodeID = 
+												{
+													m_id = 4294967295
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+									]
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 1880643700
+								}
+								value = 
+								{
+									_class = "CGroupOutputAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 352.0, 112.0 ]
+									m_nNodeID = 
+									{
+										m_id = 1880643700
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_proxyItems = 
+									[
+										{
+											m_name = "Jump"
+											m_outputID = 
+											{
+												m_id = 1252799636
+											}
+											m_inputConnection = 
+											{
+												m_nodeID = 
+												{
+													m_id = 106876872
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+										{
+											m_name = "Air"
+											m_outputID = 
+											{
+												m_id = 1639206129
+											}
+											m_inputConnection = 
+											{
+												m_nodeID = 
+												{
+													m_id = 219314110
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+										{
+											m_name = "Land"
+											m_outputID = 
+											{
+												m_id = 352860723
+											}
+											m_inputConnection = 
+											{
+												m_nodeID = 
+												{
+													m_id = 517396029
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+									]
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 2085882716
+								}
+								value = 
+								{
+									_class = "CSequenceAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ -272.0, 176.0 ]
+									m_nNodeID = 
+									{
+										m_id = 2085882716
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_tagSpans = [  ]
+									m_sequenceName = "m_anm_anim_a_jump_land"
+									m_playbackSpeed = 1.0
+									m_bLoop = false
+								}
+							},
+						]
 					}
 				}
 			},
@@ -266,52 +523,6 @@
 					m_sequenceName = "idle_all_01"
 					m_playbackSpeed = 1.0
 					m_bLoop = true
-				}
-			},
-			{
-				key = 
-				{
-					m_id = 517396029
-				}
-				value = 
-				{
-					_class = "CAddAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ 48.0, 112.0 ]
-					m_nNodeID = 
-					{
-						m_id = 517396029
-					}
-					m_networkMode = "ClientPredicted"
-					m_sNote = ""
-					m_baseInput = 
-					{
-						m_nodeID = 
-						{
-							m_id = 1030985228
-						}
-						m_outputID = 
-						{
-							m_id = 4294967295
-						}
-					}
-					m_additiveInput = 
-					{
-						m_nodeID = 
-						{
-							m_id = 2085882716
-						}
-						m_outputID = 
-						{
-							m_id = 4294967295
-						}
-					}
-					m_timingBehavior = "UseChild2"
-					m_flTimingBlend = 0.5
-					m_footMotionTiming = "Child1"
-					m_bResetBase = false
-					m_bResetAdditive = true
-					m_bApplyChannelsSeparately = true
 				}
 			},
 			{
@@ -1245,11 +1456,11 @@
 							{
 								m_nodeID = 
 								{
-									m_id = 106876872
+									m_id = 342032896
 								}
 								m_outputID = 
 								{
-									m_id = 4294967295
+									m_id = 1252799636
 								}
 							}
 							m_stateID = 
@@ -1309,11 +1520,11 @@
 							{
 								m_nodeID = 
 								{
-									m_id = 219314110
+									m_id = 342032896
 								}
 								m_outputID = 
 								{
-									m_id = 4294967295
+									m_id = 1639206129
 								}
 							}
 							m_stateID = 
@@ -1400,11 +1611,11 @@
 							{
 								m_nodeID = 
 								{
-									m_id = 517396029
+									m_id = 342032896
 								}
 								m_outputID = 
 								{
-									m_id = 4294967295
+									m_id = 352860723
 								}
 							}
 							m_stateID = 
@@ -1421,28 +1632,6 @@
 					]
 					m_bBlockWaningTags = false
 					m_bLockStateWhenWaning = false
-				}
-			},
-			{
-				key = 
-				{
-					m_id = 1234279758
-				}
-				value = 
-				{
-					_class = "CSequenceAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ -288.0, 16.0 ]
-					m_nNodeID = 
-					{
-						m_id = 1234279758
-					}
-					m_networkMode = "ClientPredicted"
-					m_sNote = ""
-					m_tagSpans = [  ]
-					m_sequenceName = "m_anm_anim_a_gmod_jump_delta"
-					m_playbackSpeed = 1.0
-					m_bLoop = false
 				}
 			},
 			{
@@ -1755,28 +1944,6 @@
 						m_fMinSpeed = 10.0
 						m_fMaxTension = 1000.0
 					}
-				}
-			},
-			{
-				key = 
-				{
-					m_id = 2085882716
-				}
-				value = 
-				{
-					_class = "CSequenceAnimNode"
-					m_sName = "Unnamed"
-					m_vecPosition = [ -256.0, 144.0 ]
-					m_nNodeID = 
-					{
-						m_id = 2085882716
-					}
-					m_networkMode = "ClientPredicted"
-					m_sNote = ""
-					m_tagSpans = [  ]
-					m_sequenceName = "m_anm_anim_a_jump_land"
-					m_playbackSpeed = 1.0
-					m_bLoop = false
 				}
 			},
 		]
